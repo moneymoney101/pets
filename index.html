@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel="stylesheet" href="styles.css">  
     </head>
 
 <body>
     <div id='header'>
-        <h1>Aspen's Adventure Gallery</h1>
+    <h1>Aspen's Adventure Gallery</h1>
     </div>
     <div id='content'>
         <div id="mainDisplay">
             <img id="mainDisplayImage" src="pictures/assets/placeholder.png"/>
         </div>
-        <h3>Select an image to view</h3>
+        <p style="color: rgb(59, 212, 28)"></p><h3>Select an image to view</h3></p>
         <div id='thumbnailsContainer'>
             <div class='thumbnail'>
                 <img src="pictures/assets/Aspen1.jpg" class="thumbnailImage">
@@ -21,6 +21,8 @@
                 var displayImage = document.getElementById("mainDisplayImage");
                  displayImage.src = "pictures/assets/Aspen1.jpg";
                  '
+
+                
                  
                 
                    
@@ -156,7 +158,7 @@
 
     #mainDisplay img {
         width: 50vh;
-        border: 3px solid black;
+        border: 3px solid rgb(8, 218, 95);
 
     }
 
@@ -173,8 +175,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: gray;
-        border: 3px solid black;
+        background-color: rgb(80, 73, 73);
+        border: 3px solid rgb(23, 196, 46);
     }
     .thumbnail img {
         margin: 0;
